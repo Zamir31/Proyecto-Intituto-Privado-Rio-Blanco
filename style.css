@@ -1,9 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
 }
-
+/* Todo lo relacionado al navbar */
 nav {
     box-sizing:border-box;
     margin: 0;
@@ -16,20 +16,39 @@ nav {
     align-items: center;
 }
 
+nav ul {
+    display: inline-block;
+}
 
 nav li {
     list-style: none;
     display: inline-block;
-    margin: 0 15px;
+    margin-left: -4px;
+    margin-right: 30px;
 }
+
+.inicioFinal{
+    margin-right: 0;
+}
+
 
 nav a {
+    display: inline-block;
     color: #F2F2F2;
+    height: 30px;
+    width: auto;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
-nav img {
+nav a:hover {
+    color: #D7F277;
+}
+
+nav img,#divLogo {
+    object-fit:cover;
     height: 110px;
     width: 110px;
 }
@@ -37,6 +56,8 @@ nav img {
 nav p {
     color: #F2E205;
     font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
 }
 
 #titulo {
@@ -46,4 +67,18 @@ nav p {
 
 #titulo div {
     display: inline-block;
+}
+
+#nombreColegio{
+    margin-left: 10px;
+}
+
+/* Todo lo relacionado a la prinmera seccion de la web */
+
+#fondo {
+    height: 969px;
+    width: auto;
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))) ,url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
+    background-position: center;
 }
