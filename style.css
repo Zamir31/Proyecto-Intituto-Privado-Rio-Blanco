@@ -1,19 +1,23 @@
-* {
+body {
     margin: 0;
     padding: 0;
-    /* font-family: 'Poppins'; */
+    font-family: 'Poppins';
+    /* scroll-behavior:auto; */
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* Todo lo relacionado al navbar */
 nav {
     box-sizing:border-box;
-    margin: 0;
+    margin: 0%;
     padding: 40px 250px 40px 250px;
     display: flex;
     background-color: #0B368C;
     height: 110px;
-    width: auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 nav ul {
@@ -39,7 +43,6 @@ nav a {
     width: auto;
     text-decoration: none;
     font-size: 20px;
-    font-family: 'Poppins';
     font-weight: 500;
 }
 
@@ -56,7 +59,6 @@ nav img,#divLogo {
 nav p {
     color: #F2E205;
     font-size: 20px;
-    font-family: 'Poppins';
     font-weight: 500;
 }
 
@@ -71,14 +73,59 @@ nav p {
 
 #nombreColegio{
     margin-left: 10px;
+    margin-top: 15px;
 }
 
 /* Todo lo relacionado a la prinmera seccion de la web */
 
+/* main {
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 235px 250px 0px 250px;
+} */
+
 #fondo {
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 235px 250px 0px 250px;
     height: 969px;
     width: auto;
     --opacidad-negro: 0.7;
     background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))) ,url(./img/vasily-koloda-8CqDvPuo_kI-unsplash.jpg);
     background-position: center;
+}
+
+h1 {
+    color: #F2E205;
+    width: 668px;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+#subtitulo {
+    width: 668px;
+    color: #F2F2F2;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#btnContacto {
+    width: 200px;
+    height: 60px;
+    background-color: #F2E205;
+    color: #0B368C;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#btnContacto::before {
+    content: "Contactanos";
+}
+
+#btnContacto:hover{
+    background-color: #0B368C;
+    border: 2px solid #F2E205;
+    color: #F2E205;
 }
