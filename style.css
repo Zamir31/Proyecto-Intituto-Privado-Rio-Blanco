@@ -244,8 +244,7 @@ h1 {
 /* Todo lo relacionado a la tercera seccion de la web  */
 
 #TerceraSeccion {
-    background-color: #F2E205;
-    margin-top: 60px;
+    margin: 60px 250px 0;
 }
 
 #TerceraSeccion h2 {
@@ -254,4 +253,42 @@ h1 {
     line-height: 150%;
     text-align: center;
     margin: 0;
+}
+
+#TerceraSeccion hr {
+    background-color: #F2E205;
+    height: 2px;
+    width: 104px;
+    border: 0;
+    margin: auto;
+    margin-top: 5px;
+    opacity:initial;
+}
+
+#ImagenesVideos {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#ImagenesVideos p {
+    color: #0D0D0D;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 50%;
+    margin-bottom: 0;
+}
+
+#ImagenesVideos .active {
+    color: #0B368C;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 100;
+    margin-bottom: 0;
+}
+
+#videos {
+    margin-left: 29px;
 }
