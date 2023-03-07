@@ -18,12 +18,18 @@ nav {
     background-color: #0B368C;
     height: 110px;
     width: 100%;
-    justify-content: space-between;
     z-index: 999;
+}
+
+#itemsNav {
+    width: 696px;
+    margin-left: 330px;
 }
 
 nav ul {
     display: inline-block;
+    padding-left: 0;
+    width: 696px;
 }
 
 nav li {
@@ -149,7 +155,7 @@ h1 {
 }
 
 .carousel-inner img{
-    object-fit: fill;
+    object-fit: cover;
     width: 500px;
     height: 500px;
 }
@@ -244,7 +250,7 @@ h1 {
 /* Todo lo relacionado a la tercera seccion de la web  */
 
 #TerceraSeccion {
-    margin: 60px 250px 0;
+    margin: 60px 255px 0;
 }
 
 #TerceraSeccion h2 {
@@ -292,3 +298,48 @@ h1 {
 #videos {
     margin-left: 29px;
 }
+
+.gridGaleria {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    margin-top: 35px;
+}
+
+.gridGaleria figure {
+    margin-bottom: 0;
+}
+
+.gridGaleria .fila1 {
+    margin-bottom: 37px;
+}
+
+.gridGaleria img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gridGaleria div {
+    margin-right: 70px;
+}
+
+#ultimo {
+    margin-right: 0;
+}
+
+/* @media (max-width: 1366px) {
+    nav {
+        box-sizing:border-box;
+        display: flex;
+        padding: 40px 50px 40px 50px;
+        width: 1366px;
+    }
+
+    #itemsNav {
+        margin-left: 176px;
+    }
+
+    #fondo {
+        padding: 235px 50px 0px 51px;
+    }
+} */
