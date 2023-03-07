@@ -17,7 +17,7 @@ nav {
     display: flex;
     background-color: #0B368C;
     height: 110px;
-    width: 100%;
+    max-width: 100%;
     z-index: 999;
 }
 
@@ -28,7 +28,7 @@ nav {
 
 nav ul {
     display: inline-block;
-    padding-left: 0;
+    padding: 0;
     width: 696px;
 }
 
@@ -305,6 +305,11 @@ h1 {
     margin-top: 35px;
 }
 
+.gridGaleria figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
 .gridGaleria figure {
     margin-bottom: 0;
 }
@@ -319,27 +324,82 @@ h1 {
     object-fit: cover;
 }
 
-.gridGaleria div {
+.gridGaleria .gridGaleria__img {
     margin-right: 70px;
 }
 
-#ultimo {
+/* #ultimo {
     margin-right: 0;
+} */
+
+
+.gridGaleriaVideos {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
 }
 
-/* @media (max-width: 1366px) {
+.gridGaleriaVideos .gridGaleriaVideos__video {
+    margin-right: 70px;
+}
+
+.gridGaleriaVideos div video {
+    max-width: 670px;
+    max-height: 670px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 1919px) {
     nav {
-        box-sizing:border-box;
-        display: flex;
-        padding: 40px 50px 40px 50px;
-        width: 1366px;
+        padding: 40px 200px 40px 200px;
     }
 
     #itemsNav {
-        margin-left: 176px;
+        margin-left: 330px;
     }
 
     #fondo {
-        padding: 235px 50px 0px 51px;
+        padding: 235px 200px 0px 200px;
     }
 } */
