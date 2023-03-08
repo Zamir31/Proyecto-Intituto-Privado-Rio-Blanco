@@ -148,11 +148,11 @@
         <h2>Galeria</h2>
         <hr />
         <div id="ImagenesVideos">
-          <p class="active">Imagenes</p>
-          <p id="videos">Videos</p>
+          <p class="active" id="imagenes" onclick="mostrarImagenes()">Imagenes</p>
+          <p id="videos" onclick="mostrarVideos()">Videos</p>
         </div>
         <div>
-          <div class="gridGaleria">
+          <div class="gridGaleria" id="galeriaImagenes">
             <div class="gridGaleria__img">
               <figure class="fila1">
                 <a href="img/Banda Guerra IPRB.jpg" data-lightbox="roadtrip">
@@ -226,18 +226,30 @@
             </div>
           </div>
 
-          <div class="gridGaleriaVideos">
+          <div class="gridGaleriaVideos" id="GaleriaVideos" style="display: none;">
             <div class="gridGaleriaVideos__video">
-              <video src="videos/flores-68367.mp4" controls></video>
+              <figure>
+                <video src="videos/flores-68367.mp4" controls></video>
+                <figcaption>Flor en video</figcaption>
+              </figure>
             </div>
             <div>
-              <video src="videos/flores-68367.mp4" controls></video>
+              <figure>
+                <video src="videos/flores-68367.mp4" controls></video>
+                <figcaption>Flor en video</figcaption>
+              </figure>
             </div>
             <div class="gridGaleriaVideos__video">
-              <video src="videos/flores-68367.mp4" controls></video>
+              <figure>
+                <video src="videos/flores-68367.mp4" controls></video>
+                <figcaption>Flor en video</figcaption>
+              </figure>
             </div>
             <div>
-              <video src="videos/flores-68367.mp4" controls></video>
+              <figure>
+                <video src="videos/flores-68367.mp4" controls></video>
+                <figcaption>Flor en video</figcaption>
+              </figure>
             </div>
           </div>
         </div>

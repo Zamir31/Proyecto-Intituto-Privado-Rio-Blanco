@@ -295,6 +295,10 @@ h1 {
     margin-bottom: 0;
 }
 
+#ImagenesVideos:hover {
+    cursor: default;
+}
+
 #videos {
     margin-left: 29px;
 }
@@ -306,6 +310,8 @@ h1 {
 }
 
 .gridGaleria figcaption {
+    font-size: 20px;
+    font-weight: 300;
     margin-top: 10px;
     text-align: center;
 }
@@ -336,6 +342,7 @@ h1 {
 .gridGaleriaVideos {
     display: grid;
     grid-template-columns: repeat(2, 0fr);
+    margin-top: 35px;
 }
 
 .gridGaleriaVideos .gridGaleriaVideos__video {
@@ -347,6 +354,16 @@ h1 {
     max-height: 670px;
 }
 
+.gridGaleriaVideos__video figure {
+    margin-bottom: 0;
+}
+
+#GaleriaVideos figcaption {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: center;
+}
 
 
 
