@@ -350,6 +350,12 @@ h1 {
 
 .gridGaleriaVideos .gridGaleriaVideos__video {
     margin-right: 70px;
+    margin-bottom: 0px;
+    max-height: 423px;
+}
+
+.gridGaleriaVideos figure {
+    margin-bottom: 10px;
 }
 
 .gridGaleriaVideos div video {
@@ -357,9 +363,10 @@ h1 {
     max-height: 670px;
 }
 
-.gridGaleriaVideos__video figure {
-    margin-bottom: 0;
-}
+/* .gridGaleriaVideos__video figure {
+    margin: 0;
+    padding-bottom: 0;
+} */
 
 #GaleriaVideos figcaption {
     font-size: 20px;
@@ -368,9 +375,40 @@ h1 {
     text-align: center;
 }
 
+#CuartaSeccion h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 150%;
+    text-align: center;
+    margin: 0;
+}
 
+#CuartaSeccion hr {
+    background-color: #F2E205;
+    height: 2px;
+    width: 120px;
+    border: 0;
+    margin: auto;
+    margin-top: 5px;
+    opacity:initial;
+}
 
+#CuartaSeccion {
+    margin: 50px 255px 0;
+}
 
+.list-group {
+    margin-top: 35px;
+}
+
+.list-group-item {
+    font-size: 24px;
+}
+
+.list-group .active {
+    display: flex;
+    justify-content: center;
+}
 
 
 
