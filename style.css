@@ -15,32 +15,35 @@ nav {
     margin: 0%;
     padding: 40px 250px 40px 250px;
     display: flex;
+    justify-content: space-between;
     background-color: #0B368C;
     height: 110px;
     max-width: 100%;
     z-index: 999;
 }
 
-#itemsNav {
+/* #itemsNav {
     width: 696px;
     margin-left: 330px;
-}
+} */
 
 nav ul {
     display: inline-block;
     padding: 0;
-    width: 696px;
 }
 
 nav li {
     list-style: none;
     display: inline-block;
-    margin-left: -4px;
+    margin: auto;
+    padding: 0;
+    margin-left: -2px;
     margin-right: 30px;
 }
 
 .inicioFinal{
     margin-right: 0;
+    padding: 0;
 }
 
 
