@@ -1,0 +1,32 @@
+footer {
+    background-color: #0D0D0D;
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+.elFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 250px;
+}
+
+.elFooter_logo img {
+    object-fit:cover;
+    height: 110px;
+    width: 110px;
+}
+
+.IconosFooter {
+    display: flex;
+}
+
+.IconosFooter__icon {
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1680px) {
+    .elFooter {
+        margin: 0 50px;
+    }
+}

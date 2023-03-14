@@ -31,6 +31,7 @@ h1 {
 }
 
 #btnContacto {
+    display: inline-block;
     width: 200px;
     height: 60px;
     background-color: #F2E205;
@@ -39,6 +40,11 @@ h1 {
     border: none;
     font-size: 20px;
     font-weight: 700;
+}
+
+#divCallToAction {
+    display: flex;
+    justify-content: initial;
 }
 
 #btnContacto::before {
@@ -54,7 +60,6 @@ h1 {
 #fondo .row {
     display: flex;
     justify-content: space-between;
-    width: 1420px auto;
     margin: 0%;
 }
 
@@ -75,5 +80,67 @@ h1 {
 @media screen and (max-width: 1680px) {
     #fondo {
         padding: 235px 50px 0px 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    main {
+        margin-top: 55px;
+    }
+
+    #fondo {
+        margin: 0%;
+        padding: 15px 0px 0px;
+        height: auto;
+        width: auto;
+        background-image:none;
+    }
+
+    h1 {
+        color: #0B368C;
+        font-size: 30px;
+        height: auto;
+        width: auto;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    #subtitulo {
+        display: none;
+    }
+
+    #fondo .row {
+        display: flex;
+        justify-content:center;
+    }
+
+    #fondo .row .col-6{
+        /* width: 360px !important; */
+        width: auto;
+    }
+
+    #fondo .row .col-6 h1, #subtitulo, #btnContacto {
+        margin-bottom: 15px;
+    }
+
+    #divCallToAction {
+        display: flex;
+        justify-content: center;
+    }
+
+    #col6_primeraSeccion div {
+        padding: 0 16px;
+    }
+
+    #segundaCol_primeraSeccion {
+        width: 100% !important;
+        height: 400px;
+    }
+
+    .carousel-inner img{
+        object-fit:cover;
+        width:100%;
+        height: 400px;
     }
 }
