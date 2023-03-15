@@ -11,3 +11,7 @@ mostrarVideos = () => {
     document.getElementById("imagenes").removeAttribute("class");
     document.getElementById("videos").setAttribute('class', 'active');
 }
+
+autoclick = () => {
+    document.getElementById("btn_close").click();
+}

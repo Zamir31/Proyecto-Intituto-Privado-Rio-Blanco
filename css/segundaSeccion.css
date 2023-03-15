@@ -85,6 +85,13 @@
 
 @media screen and (max-width: 1680px) {
     #SegundaSeccion {
+        margin: 0px 150px 0px 150px;
+        margin-top: -85px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #SegundaSeccion {
         margin: 0px 50px 0px 50px;
         margin-top: -85px;
     }

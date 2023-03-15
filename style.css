@@ -2,9 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
-    /* scroll-behavior:auto; */
+    /* scroll-behavior:smooth; */
 }
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+#fondo, #SegundaSeccion, #TerceraSeccion, #CuartaSeccion, #QuintaSeccion {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }

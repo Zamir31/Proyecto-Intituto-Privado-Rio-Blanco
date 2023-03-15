@@ -81,6 +81,12 @@ nav p {
 
 @media screen and (max-width: 1680px) {
     nav {
+        padding: 40px 150px 40px 150px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    nav {
         padding: 40px 50px 40px 50px;
     }
 }
@@ -108,5 +114,9 @@ nav p {
 
     nav p {
         font-size: 15px;
+    }
+
+    .navbar-nav a {
+        font-size: 20px;
     }
 }
