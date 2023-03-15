@@ -67,3 +67,48 @@
         margin: 60px 50px 0;
     }
 }
+
+@media screen and (max-width: 414px) {
+    #QuintaSeccion {
+        margin: 20px 16px 0;
+    }
+
+    #QuintaSeccion h2 {
+        font-size: 25px;
+    }
+
+    #QuintaSeccion hr {
+        width: 55px;
+    }
+
+    #QuintaSeccion h3 {
+        font-size: 20px;
+    }
+
+    .DireccionYRedes p {
+        font-size: 15px;
+    }
+
+    .SeccionesContacto {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .linksRedes div {
+        margin: 20px 0;
+    }
+
+    .linksRedes div svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    #divMapa {
+        display: flex;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 300px;
+    }
+}

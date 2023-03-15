@@ -72,3 +72,29 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 414px) {
+    #CuartaSeccion {
+        margin: 0px 16px 0;
+    }
+
+    #CuartaSeccion h2 {
+        font-size: 25px;
+    }
+
+    #CuartaSeccion hr {
+        width: 60px;
+    }
+
+    .list-group {
+        margin-top: 15px;
+    }
+
+    .list-group-item {
+        font-size: 15px;
+    }
+
+    .list-group .active {
+        text-align: center;
+    }
+}

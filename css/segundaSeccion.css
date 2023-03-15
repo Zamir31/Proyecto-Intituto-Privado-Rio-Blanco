@@ -89,3 +89,60 @@
         margin-top: -85px;
     }
 }
+
+@media screen and (max-width: 414px) {
+
+    #SegundaSeccion {
+        height: auto;
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #NuestraHistoria h2 {
+        font-size: 20px;
+    }
+
+    #NuestraHistoria p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    #NuestraHistoria div {
+        padding: 0 16px;
+        margin-top: 15px;
+    }
+
+    #NuestraHistoria hr {
+        width: 75px;
+    }
+
+    #VisionMision h3 {
+        font-size: 20px;
+    }
+
+    #VisionMision p {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    #VisionMision {
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    #VisionMision div{
+        margin-top: 15px;
+    }
+
+    #VisionMision div p{
+        padding: 0 16px;
+    }
+
+    #VisionMision hr {
+        width: 20px;
+    }
+
+    #vision {
+        margin-bottom: 15px;
+    }
+}

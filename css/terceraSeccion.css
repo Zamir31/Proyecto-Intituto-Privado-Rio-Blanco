@@ -148,3 +148,81 @@
         height: auto;
     }
 }
+
+@media screen and (max-width: 414px) {
+
+    #TerceraSeccion {
+        margin: 20px 16px 0;
+    }
+
+    #TerceraSeccion h2 {
+        font-size: 25px;
+    }
+
+    #TerceraSeccion hr {
+        width: 52px;
+    }
+
+    #ImagenesVideos {
+        margin-top: 20px;
+    }
+
+    #ImagenesVideos p {
+        font-size: 15px;
+    }
+
+    #ImagenesVideos .active {
+        font-size: 15px;
+    }
+
+    .gridGaleria {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .gridGaleria .gridGaleria__img {
+        margin-right: 0px;
+    }
+
+    .gridGaleria img {
+        width: auto;
+        height: 278px;
+        object-fit: cover;
+    }
+
+    .gridGaleria .fila1 {
+        margin-bottom: 20px;
+    }
+
+    .gridGaleria figure {
+        margin-bottom: 20px;
+    }
+
+    .gridGaleria figcaption {
+        font-size: 15px;
+    }
+
+
+    .gridGaleriaVideos {
+        display: grid;
+        grid-template-columns: repeat(1, 0fr);
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .gridGaleriaVideos div video {
+        width: 382px;
+        height: auto;
+    }
+
+    .gridGaleriaVideos figure {
+        margin-bottom: 20px;
+    }
+
+    #GaleriaVideos figcaption {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
