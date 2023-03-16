@@ -1,3 +1,8 @@
+.fondoEncabezado {
+    background-color: #0B368C !important;
+    border-color: #0B368C !important;
+}
+
 #CuartaSeccion h2 {
     font-size: 40px;
     font-weight: 500;
@@ -23,6 +28,7 @@
 #CuartaSeccion div {
     display: flex;
 }
+
 
 .list-group {
     width: 1420px;

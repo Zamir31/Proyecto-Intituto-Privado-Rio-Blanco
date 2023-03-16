@@ -95,7 +95,7 @@
 }
 
 .gridGaleriaVideos figure {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .gridGaleriaVideos div video {
@@ -106,7 +106,6 @@
 #GaleriaVideos figcaption {
     font-size: 20px;
     font-weight: 300;
-    margin-top: 10px;
     text-align: center;
 }
 

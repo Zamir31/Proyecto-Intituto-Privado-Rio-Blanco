@@ -8,8 +8,3 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
-#fondo, #SegundaSeccion, #TerceraSeccion, #CuartaSeccion, #QuintaSeccion {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
