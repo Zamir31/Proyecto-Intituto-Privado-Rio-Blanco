@@ -47,8 +47,13 @@
     margin-top: 40px;
 }
 
+.linksRedes a {
+    text-decoration: none;
+    color: black;
+}
+
 .DireccionYRedes h3 {
-    color: #F2E205;
+    color: #0B368C;
     font-size: 40px;
     font-weight: 500;
     line-height: 150%;

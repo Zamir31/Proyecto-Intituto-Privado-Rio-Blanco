@@ -67,6 +67,10 @@ h1 {
     padding: 0%;
 }
 
+#fondo .row .col-6 a{
+    text-decoration: none;
+}
+
 #fondo .row .col-6 h1, #subtitulo {
     margin-bottom: 70px;
 }
