@@ -225,3 +225,14 @@
         margin-top: 5px;
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    .gridGaleriaVideos div video {
+        width: 328px;
+    }
+
+    .gridGaleria img {
+        width: 328px;
+    }
+}

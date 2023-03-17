@@ -124,7 +124,6 @@ nav p {
 
 @media screen and (max-width: 360px){
     nav {
-        /* width: 360px; */
-        background-color: #F2E205;
+        width: 360px;
     }
 }
