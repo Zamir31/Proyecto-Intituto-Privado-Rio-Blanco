@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-intituto-privado-rio-blanco",
+  "version": "1.0.0",
+  "description": "Pagina web de un Instituto de educación",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamir31/Proyecto-Intituto-Privado-Rio-Blanco.git"
+  },
+  "author": "Daniel Noriega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zamir31/Proyecto-Intituto-Privado-Rio-Blanco/issues"
+  },
+  "homepage": "https://github.com/Zamir31/Proyecto-Intituto-Privado-Rio-Blanco#readme"
+}
