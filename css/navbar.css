@@ -6,7 +6,7 @@ nav {
     justify-content: space-between;
     background-color: #0B368C;
     height: 110px;
-    max-width: 100%;
+    width: 100%;
     z-index: 999;
 }
 
@@ -118,5 +118,13 @@ nav p {
 
     .navbar-nav a {
         font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 360px){
+    nav {
+        /* width: 360px; */
+        background-color: #F2E205;
     }
 }

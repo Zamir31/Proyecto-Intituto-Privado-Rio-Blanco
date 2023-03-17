@@ -62,3 +62,29 @@ footer {
         margin-right: 20px;
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    /* footer {
+        width: 100%;
+    } */
+
+    /* .elFooter {
+        margin: 0 16px;
+    } */
+
+    /* .elFooter_logo img {
+        object-fit:cover;
+        height: 40px;
+        width: 40px;
+    } */
+
+    /* .IconosFooter svg {
+        width: 25px;
+        height: 25px;
+    } */
+
+    /* .IconosFooter__icon {
+        margin-right: 20px;
+    } */
+}
